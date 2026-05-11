@@ -1,14 +1,12 @@
 /** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
- *   Modul               : Founfation of Algorithm
+ *   Modul               : Foundation of Algorithm
  *   Hari dan Tanggal    : Senin, 11 Mei 2026
  *   Nama (NIM)          : Nadine Gabe Ulina Sianturi
  *   Nama File           : soal2.c
  *   Deskripsi           : menentukan apakah susunan prasyarat yang diberikan masih memungkinkan semua misi dijalankan.dengan syarat ada N misi dan 
- * M pasangan yang terdiri dari a dan b dimana a bergantung pada b, tetapi tidak boleh ada cycle dalam graph ini.(simplenya tuh setangkep aku kayak dia boleh ada panah bolak balik antara dua node tapi gaboleh bikin cycle\
- * kayak 0->1->2->0 nah ini bikin dia balik lagi kan ke 0 makanya dia membentuk cycle)
- * contoh testcasenya 3 3 1 0 2 1 0 2 
+ * M pasangan yang terdiri dari a dan b dimana a bergantung pada b, tetapi tidak boleh ada cycle dalam graph ini.(simplenya tuh setangkep aku kayak dia boleh ada panah bolak balik antara dua node tapi gaboleh bikin cycle)
 TIDAK BISA (ini outputnya). rencana penyelesaiannya itu bikin dua buah graph yang salah satunya dependan ke graph yang lain lalu cek jika ada nilai graph a yang berakhir ke dirinya sendiri maka dia membentuk cycle).
-
+ * rencananya bikin graph dulu, trus tambahin edge, baru gunain dfs buat cek graphnya(pakai int supaya ngereturn hasil jangan void)
  * source : https://www.geeksforgeeks.org/compiler-design/dependency-graph-in-compiler-design/ ; https://rkgiitbh.github.io/data-structures.github.io/HTML/graphImplementation.html ; https://software.land/dependency-graph/
  *
  */
@@ -36,7 +34,6 @@ Graph* createGraph(int N) {
     for (int i = 0; i < N; i++) {
         graph->head[i] = NULL;
     }
-
     return graph;
 }
 
