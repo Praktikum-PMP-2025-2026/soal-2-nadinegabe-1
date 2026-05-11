@@ -1,5 +1,5 @@
 /** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
- *   Modul               : Founfation of Algorithm
+ *   Modul               : Foundation of Algorithm
  *   Hari dan Tanggal    : Senin, 11 Mei 2026
  *   Nama (NIM)          : Nadine Gabe Ulina Sianturi
  *   Nama File           : soal2.c
