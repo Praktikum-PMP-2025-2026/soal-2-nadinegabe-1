@@ -1,5 +1,5 @@
 /** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
- *   Modul               : Foundation of Algorithm
+ *   Modul               : Founfation of Algorithm
  *   Hari dan Tanggal    : Senin, 11 Mei 2026
  *   Nama (NIM)          : Nadine Gabe Ulina Sianturi
  *   Nama File           : soal2.c
@@ -8,7 +8,8 @@
 TIDAK BISA (ini outputnya). rencana penyelesaiannya itu bikin dua buah graph yang salah satunya dependan ke graph yang lain lalu cek jika ada nilai graph a yang berakhir ke dirinya sendiri maka dia membentuk cycle).
  * rencananya bikin graph dulu, trus tambahin edge, baru gunain dfs buat cek graphnya(pakai int supaya ngereturn hasil jangan void)
  * source : https://www.geeksforgeeks.org/compiler-design/dependency-graph-in-compiler-design/ ; https://rkgiitbh.github.io/data-structures.github.io/HTML/graphImplementation.html ; https://software.land/dependency-graph/
- *
+ * pls bisa ya pls
+ * ayo pls bisa pls
  */
 
 #include <stdio.h>
