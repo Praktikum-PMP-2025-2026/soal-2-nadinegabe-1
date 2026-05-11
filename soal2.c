@@ -8,6 +8,7 @@
 TIDAK BISA (ini outputnya). rencana penyelesaiannya itu bikin dua buah graph yang salah satunya dependan ke graph yang lain lalu cek jika ada nilai graph a yang berakhir ke dirinya sendiri maka dia membentuk cycle).
  * rencananya bikin graph dulu, trus tambahin edge, baru gunain dfs buat cek graphnya(pakai int supaya ngereturn hasil jangan void)
  * source : https://www.geeksforgeeks.org/compiler-design/dependency-graph-in-compiler-design/ ; https://rkgiitbh.github.io/data-structures.github.io/HTML/graphImplementation.html ; https://software.land/dependency-graph/
+ * https://stackoverflow.com/questions/19113189/detecting-cycles-in-a-graph-using-dfs-2-different-approaches-and-whats-the-dif
  * pls bisa ya pls
  * ayo pls bisa pls
  */
